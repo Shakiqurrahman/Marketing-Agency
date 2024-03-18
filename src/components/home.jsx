@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react'
 import { Whoweare, ContactUs, Hero, Navbar,  Services, Partner, Results, Whatisnext, Footer } from './home_component';
 import {ellipse} from '../assets';
 import { motion } from "framer-motion";
+import AreYouStruggling from './home_component/AreYouStruggling';
 
 
 const Home = () => {
@@ -47,6 +48,7 @@ const Home = () => {
           </div>
         </motion.nav>
       </div>
+      <AreYouStruggling />
       <div className='who_we_are'>
         <Whoweare />
       </div>

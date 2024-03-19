@@ -1,8 +1,27 @@
 import React from "react";
+import { useEffect } from "react";
 import { IoMdCloudDone } from "react-icons/io";
+import { motion, useAnimation } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 const WeCanHelp = () => {
+  const controls = useAnimation();
+    const [ref, inView] = useInView();
+
+    useEffect(() => {
+        if (inView) {
+            controls.start({ opacity: 1, y: 0 });
+        } else {
+            controls.start({ opacity: 0, y: 20 });
+        }
+    }, [controls, inView]);
   return (
+    <motion.nav
+            ref={ref}
+            initial={{ opacity: 0, y: 20 }}
+            animate={controls}
+            transition={{ opacity: 1, y: 0, duration: 0.5, delay: 0.5 }}
+        >
     <section className="text-white px-4 max-w-[1240px] mx-auto">
       <h1 className="text-xl sm:3xl md:text-4xl font-semibold mb-8">
         We can help you scale if..
@@ -35,6 +54,7 @@ const WeCanHelp = () => {
         reputation.
       </p>
     </section>
+    </motion.nav>
   );
 };
 

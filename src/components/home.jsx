@@ -3,6 +3,7 @@ import { Whoweare, ContactUs, Hero, Navbar,  Services, Partner, Results, Whatisn
 import {ellipse} from '../assets';
 import { motion } from "framer-motion";
 import AreYouStruggling from './home_component/AreYouStruggling';
+import WeCanHelp from './home_component/WeCanHelp';
 
 
 const Home = () => {
@@ -54,6 +55,9 @@ const Home = () => {
       </div>
       <div className="services" >
         <Services />
+      </div>
+      <div className="" style={{marginTop:120}}>
+        <WeCanHelp />
       </div>
       <div className="" style={{marginTop:80}}>
         <Partner />

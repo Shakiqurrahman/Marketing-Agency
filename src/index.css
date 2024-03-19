@@ -207,7 +207,7 @@ body{
   width: 405pt;
 }
 .who_we_are h3{
-  background: linear-gradient(194deg, rgba(119, 211, 236, 1) 14%, rgba(70, 143, 238, 1) 100%);
+  background: linear-gradient(194deg, rgba(119, 211, 236, 1) 14%, rgb(70, 143, 238) 100%);
   -webkit-background-clip: text; /* For Safari/Chrome/iOS */
   color: transparent;
   font-size: 16pt;

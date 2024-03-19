@@ -27,9 +27,9 @@ const Results = () => {
                 <div className="container mx-auto px-4">
                     <div className="grid grid-cols-1 xl:grid-cols-12">
                         <div className="content-wrapper1 grid-cols-1 xl:col-span-6 mt-10">
-                            <h3 className='capitalized'>OUR STRUCTURE</h3>
-                            <h1 className='capitalize mt-3' style={{lineHeight:1}}>driven massive results</h1>
-                            <p className='mt-4'>Our company is made up of marketing superhero's that have driven massive revenue success for clients.</p>
+                            <h3 className='capitalized'>Split-Testing</h3>
+                            <h1 className='capitalize mt-3' style={{lineHeight:1}}>Split Testing</h1>
+                            <p className='mt-4'>We Don't just stop when you've got a winning funnel. We will use our expertise to split test various elements from copy to design.</p>
                             <button className="btn get-started-button" style={{ borderRadius: "100pt" }}>
                             <a target='_blank' href="https://calendly.com/legendarymktg/discovery-call?month=2024-01">Learn More</a>
                             </button>

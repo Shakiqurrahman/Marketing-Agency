@@ -4,6 +4,7 @@ import {ellipse} from '../assets';
 import { motion } from "framer-motion";
 import AreYouStruggling from './home_component/AreYouStruggling';
 import WeCanHelp from './home_component/WeCanHelp';
+import OptimizeYourOffer from './home_component/OptimizeYourOffer';
 
 
 const Home = () => {
@@ -61,6 +62,9 @@ const Home = () => {
       </div>
       <div className="" style={{marginTop:80}}>
         <Partner />
+      </div>
+      <div className="" style={{marginTop:120}}>
+        <OptimizeYourOffer />
       </div>
       <div className="" style={{marginTop:120}}>
         <Results />

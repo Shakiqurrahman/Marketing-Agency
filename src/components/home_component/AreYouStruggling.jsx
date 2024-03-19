@@ -30,7 +30,7 @@ const AreYouStruggling = () => {
         you don't pay)
       </p>
       <p className="text-white/80 text-sm sm:text-[16px]">
-        Warning: This will work even if you do not have a huge audience, without
+        <span className="text-red-500">Warning:</span> This will work even if you do not have a huge audience, without
         paid ads, or without using cold emails.
       </p>
       <button

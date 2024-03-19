@@ -22,7 +22,7 @@ const OptimizeYourOffer = () => {
             transition={{ opacity: 1, y: 0, duration: 0.5, delay: 0.5 }}
         >
     <section className="text-white text-center my-36 mt-10 sm:mt-36 px-4 sm:px-0">
-      <p className="mb-2 text-[#65baed]/60 text-sm sm:text-[16px]">In less than 21 days we will..</p>
+      <p className="mb-2 text-[#65baed]/80 text-sm sm:text-[16px]">In less than 21 days we will..</p>
       <h1 className="text-xl sm:3xl md:text-4xl font-semibold text-center mb-5">
         <span className="text-[#65baed]">Optimize</span> your offer
       </h1>

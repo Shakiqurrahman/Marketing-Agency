@@ -145,7 +145,7 @@ body{
 }
 .bg-navbar-style2{
   background-color: transparent;
-  margin: 16px 35px 55px 35px;
+  margin: 0 35px 0 0;
   z-index: 99;
 }
 .nav-page{

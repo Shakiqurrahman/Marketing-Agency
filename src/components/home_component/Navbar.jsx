@@ -37,7 +37,7 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={logo} alt='logo' style={{ height: 110 }} className=' object-cover'  />
+            <img src={logo} alt='logo' style={{ height: 100 }} className=' object-cover'  />
           </Link>
         </div>
         <div className="" style={{ width: "100%" }}>
@@ -73,7 +73,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div class="flex hidden md:flex justify-end mt-1">
+        <div className="hidden md:flex justify-end mt-1">
           <button className="btn contact-button">
             <a href="/contact">Contact Us</a>
           </button>
